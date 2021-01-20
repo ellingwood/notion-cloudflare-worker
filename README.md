@@ -14,6 +14,10 @@ This worker simply modifies your Notion slug to a friendlier version
 
 ### Instructions
 
+**Assumes you have done pre-requisites below**
+
+- `git clone https://github.com/austinellingwood/notion-cloudflare-worker.git`
+- `cd notion-cloudflare-worker`
 - `yarn`
 - `yarn build`
 
