@@ -1,0 +1,16 @@
+{
+  "name": "notion-cloudflare-worker",
+  "version": "1.0.0",
+  "description": "Build and deploy a worker to deploy to CloudFlare with custom slugs for cleaner URLs",
+  "scripts": {
+    "build": "webpack --progress --color",
+    "deploy": "sh ./scripts/deploy.sh"
+  },
+  "main": "dist/worker.js",
+  "author": "Austin Ellingwood",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
